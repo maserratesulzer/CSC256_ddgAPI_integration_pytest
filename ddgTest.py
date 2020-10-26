@@ -81,6 +81,6 @@ def get_index(astring, alist):
 def test_ddg_get_all_presidents_by_last_name(texts_copy):
     """without repeating them"""
     for name in presidents_last_names:
-        name_index = get_index_with_string(name, texts_copy)
+        name_index = get_index(name, texts_copy)
         assert name_index != -1, name + ' not found.'
         del texts_copy[name_index]
