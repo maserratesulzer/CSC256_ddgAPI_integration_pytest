@@ -11,4 +11,4 @@ install:
 
 - "pip install -r requirements.txt"
 
-script: python -m pytest ddgTest
+script: python -m pytest ddgTest.py
